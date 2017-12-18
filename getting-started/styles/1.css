@@ -1,0 +1,15 @@
+body {
+  font-family: 'Open Sans';
+}
+
+div {
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px;
+  text-shadow: 3px black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
