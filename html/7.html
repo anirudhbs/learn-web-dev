@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Native form widgets</title>
+  <link rel="stylesheet" href="./styles/7.css" type="text/css">
+</head>
+
+<body>
+  <div>
+</body>
+<form>
+  <input type="email" id="email" name="email" multiple>
+  <select id="groups" name="groups">
+    <optgroup label="fruits">
+      <option>Banana</option>
+      <option selected>Cherry</option>
+      <option>Lemon</option>
+    </optgroup>
+    <optgroup label="vegetables">
+      <option>Carrot</option>
+      <option>Eggplant</option>
+      <option>Potato</option>
+    </optgroup>
+  </select>
+</form>
+</div>
+<div>
+  <label for="myFruit">What's your favorite fruit?</label>
+  <input type="text" name="myFruit" id="myFruit" list="mySuggestion">
+  <datalist id="mySuggestion">
+    <option>Apple</option>
+    <option>Banana</option>
+    <option>Blackberry</option>
+  </datalist>
+</div>
+<div>
+  <input type="number" name="age" id="age" min="0" max="12" step="2"><br>
+  <input type="datetime-local" name="datetime" id="datetime"><br>
+  <input type="file" name="file" id="file" accept="image/*" multiple><br>
+  <progress max="12" value="10"></progress><br>  
+</div>
+
+</html>
