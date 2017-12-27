@@ -1,0 +1,30 @@
+/* .main {
+  font-family: sans-serif;
+  padding: 50px;
+  background-color: red;
+  background: linear-gradient(to right, #ffffff 10%, #eeeeee, #dddddd);
+} */
+
+/* .main {
+  background-image: url('../img/profile.jpg');
+  background-position: center;
+  height: 600px;
+  width: 600px;
+  color: red;
+  padding: 20px;
+  border-image-slice: 40;
+} */
+
+div {
+  width: 300px;
+  padding: 20px;
+  margin: 10px auto;
+  background-color: #f66;
+  text-align: center;
+  /* border-related properties */
+  border: 20px solid black;
+  background-clip: padding-box;
+  border-image-source: url(https://mdn.mozillademos.org/files/13060/border-image.png);
+  border-image-slice: 40;
+  border-image-repeat: round;
+}

@@ -1,0 +1,15 @@
+.main {
+  width: 50%;
+  height: 300px;
+  padding: 10px;
+  display: flex;
+  background: purple;
+  border: 5px solid #000000;
+}
+
+div {
+  background: orange;
+  flex: 1;
+  margin: 10px;
+  border: 5px solid #000000;
+}
